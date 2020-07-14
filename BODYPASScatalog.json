@@ -1,0 +1,2969 @@
+[
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "Age",
+    "type": "Other",
+    "designation": "Age",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Age of the subject when he/she was scanned.",
+    "partnerCodes": [],
+    "media": [],
+    "units": "years"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "AnkleGirthAvg",
+    "type": "Metric",
+    "designation": "Ankle girth",
+    "source": "ISO 8559-1:2017 5.3.26",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Knee girth",
+      "ISO 18825-2:2016 2.2.28"
+    ],
+    "definition": "Mean of the horizontal girths for both legs measured at the level of the outer ankle point.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "9550_LR"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "42"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "16"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "AnkleGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9550_LR_back_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9550_LR_front_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "AnkleGirthLeft",
+    "type": "Metric",
+    "designation": "Ankle girth left",
+    "source": "ISO 8559-1:2017 5.3.26",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Knee girth",
+      "ISO 18825-2:2016 2.2.28"
+    ],
+    "definition": "Horizontal girth of the left leg measured at the level of the outer ankle point. Subject stands erect (tape). The outer ankle point (ISO 8559-1:2017 3.1.18) is the most lateral point of the outer ankle bone (lateral malleolus).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "9550"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "42"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "16"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "AnkleGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9550_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9550_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "AnkleGirthRight",
+    "type": "Metric",
+    "designation": "Ankle girth right",
+    "source": "ISO 8559-1:2017 5.3.26",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Knee girth",
+      "ISO 18825-2:2016 2.2.28"
+    ],
+    "definition": "Horizontal girth of the right leg measured at the level of the outer ankle point. Subject stands erect (tape). The outer ankle point (ISO 8559-1:2017 3.1.18) is the most lateral point of the outer ankle bone (lateral malleolus).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "9551"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "42"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "16"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "AnkleGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9551_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9551_right_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "Avatar",
+    "type": "Model",
+    "designation": "Avatar 3D",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "A closed 3D mesh of triangles which defines a geometrical representation of a human body.",
+    "partnerCodes": [],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/template_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/template_back.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "Avatar3D",
+    "type": "Model",
+    "designation": "Avatar 3D",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "A closed 3D mesh of triangles which defines a geometrical representation of a human body.",
+    "partnerCodes": [],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/template_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/template_back.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BA",
+    "type": "Metric",
+    "designation": "Ball angle",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Angle formed by the projection into the Ground plane of the line between 1st and 5th Metatarsal heads and the perpendicular of the foot axis, which passes through the projections in the ground plane of the rearmost point of the foot and the midpoint between the 1st and 5th metatarsal heads.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "BA"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/BA01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BG",
+    "type": "Metric",
+    "designation": "Ball girth",
+    "source": "IBV",
+    "otherCompatibleStd": [
+      "ISO 8559-1:2017 5.4.7"
+    ],
+    "definition": "Perimeter of the ball section, which is the section passing through 1st and 5th metatarsal heads and perpendicular to the ground plane.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "BG"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/BG01.png",
+      "https://bodypassproject.ibv.org/metricscatalog/BG02.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BH",
+    "type": "Metric",
+    "designation": "Ball height",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Maximal height of the ball section, which is the section passing through 1st and 5th metatarsal heads and perpendicular to the ground plane.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "BH"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/Ball_sec.png",
+      "https://bodypassproject.ibv.org/metricscatalog/BH01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BP",
+    "type": "Metric",
+    "designation": "Ball position",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Distance from the rearmost point of the foot to the intersection of the ball section and the foot axis, which passes through the projections in the ground plane of the rearmost point of the foot and the midpoint between the 1st and 5th metatarsal heads.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "BP"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/BP02.png",
+      "https://bodypassproject.ibv.org/metricscatalog/BP01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BW",
+    "type": "Metric",
+    "designation": "Ball width",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Maximal distance between the extreme points of the ball section (section passing through 1st and 5th metatarsal heads and perpendicular to the ground plane) projected into the Ground plane.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "BW"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/Ball_sec.png",
+      "https://bodypassproject.ibv.org/metricscatalog/BW01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BackArmpitsContour",
+    "type": "Metric",
+    "designation": "Back Armpits contour",
+    "source": "IBV",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Back width"
+    ],
+    "definition": "Distance over the body across the back between back armpits at back armpit level. Subject stands erect (tape)",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "5020"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "22"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5020_back_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5020_top_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BackNeckHeight",
+    "type": "Metric",
+    "designation": "Back neck height",
+    "source": "ISO 8559-1:2017 5.1.5",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Cervicale height"
+    ],
+    "definition": "Vertical distance from back neck point to the ground. Subject standing and head in Frankfurt plane (anthropometer). The back neck point (ISO 8559-1:2017 3.1.6) is the tip of the prominent bone at the base of the back neck in the mid-sagital plane, and projected posteriorly to the surface of the skin. The Frankfurt plane (ISO 8559-1:2017 3.2.5) is the standard horizontal plane at the level of the left tragion, upper border of the cartilaginous flap in front of the ear hole, and the left orbitale, the lower border of the orbital margin, when the mid-sagital plane of the head is held vertically.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0030"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0030_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0030_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BackNeckPointToWaist",
+    "type": "Metric",
+    "designation": "Back neck point to waist",
+    "source": "ISO 8559-1:2017 5.4.5",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Center back waist length",
+      "ISO 18825-2:2016 2.2.9"
+    ],
+    "definition": "Distance from back neck point to waist level. Subject stands erect with shoulders relaxed and head in Frankfurt plane (tape). The back neck point (ISO 8559-1:2017 3.1.6) is the tip of the prominent bone at the base of the back of the neck in the mid-sagital plane, and projected posteriorly to the surface of the skin. Waist level (ISO 8559-1:2017 3.1.22) is the midway level between the lowest rib point and the highest point of the hip bone at the side of the body. Lowest rib point (ISO 8559-1:2017 3.1.15) is the inferior point of the bottom of the rib cage (tenth rib) projected horizontally, 45 degrees from the midsagital plane, to the surface of the skin. The highest point of the hip bone (ISO 8559-1:2017 3.1.16) is the highest point at the side of the upper border of the iliac crest. The Frankfurt plane (ISO 8559-1:2017 3.2.5) is the standard horizontal plane at the level of the left tragion, upper border of the cartilaginous flap in front of the ear hole, and the left orbitale, the lower border of the orbital margin, when the mid-sagital plane of the head is held vertically.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "5040_mk"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5040_mk_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5040_mk_back_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BackNeckToKneeHeight",
+    "type": "Metric",
+    "designation": "Back neck to knee height",
+    "source": "ISO 8559-1:2017 5.7.2",
+    "otherCompatibleStd": [],
+    "definition": "Distance from back neck point following the contour of the spinal column to the hip level and vertical level of the centre point of knee-cap. Subject standing and head in Frankfurt plane (tape+anthropometer). The back neck point (ISO 8559-1:2017 3.1.6) is the tip of the prominent bone at the base of the back neck in the mid-sagital plane, and projected posteriorly to the surface of the skin. The Frankfurt plane (ISO 8559-1:2017 3.2.5) is the standard horizontal plane at the level of the left tragion, upper border of the cartilaginous flap in front of the ear hole, and the left orbitale, the lower border of the orbital margin, when the mid-sagital plane of the head is held vertically. The centre point of the knee-cap (ISO 8559-1:2017 3.1.17) is the centre of the patella when the thigh muscles are relaxed.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0050_I"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0050_I_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0050_I_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BackShoulderWidth",
+    "type": "Metric",
+    "designation": "Back shoulder width",
+    "source": "ISO 8559-1:2017 5.4.2",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Accross back shoulder width"
+    ],
+    "definition": "Distance between the right and left shoulder points. Subject sits or stands erect with shoulders relaxed (tape). The shoulder point (ISO 8559-1:2017 3.1.2) is the most lateral point of the lateral edge of the spine (acromial process) of the scapula, projected vertically to the surface of the skin.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "3020_mk"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "20"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "ShouldersLength"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_3020_mk_back_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_3020_mk_top.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BodyVolume",
+    "type": "Metric",
+    "designation": "Full body volume",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Body volume contained within the watertight mesh.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "volume"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "VolumeBody"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_volume_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_volume_back.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BustGirth",
+    "type": "Metric",
+    "designation": "Bust girth",
+    "source": "ISO 8559-1:2017 5.3.4",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.4.10",
+      "ASTM D5219-15 Chest/bust girth",
+      "ISO 18825-2:2016 2.2.18"
+    ],
+    "definition": "Horizontal girth measured at bust point level. Bust point (ISO 8559-1:2017 3.1.11) is the most anterior point of the bust when wearing a bra. Subject stands erect (tape)",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "4510"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "21"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": "1"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "12"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4510_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4510_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BustHeight",
+    "type": "Metric",
+    "designation": "Bust height",
+    "source": "ISO 8559-1:2017 5.1.7",
+    "otherCompatibleStd": [
+      "ISO 18825-2:2016 2.2.2"
+    ],
+    "definition": "Vertical distance from the bust point to the ground. Subject in standing and head in the Frankfurt plane (anthropometer). Bust point (ISO 8559-1:2017 3.1.11) is the most anterior point of the bust when wearing a bra. The Frankfurt plane (ISO 8559-1:2017 3.2.5) is the standard horizontal plane at the level of the left tragion, upper border of the cartilaginous flap in front of the ear hole, and the left orbitale, the lower border of the orbital margin, when the mid-sagital plane of the head is held vertically.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0170"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0170_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0170_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "BustPointWidth",
+    "type": "Metric",
+    "designation": "Bust point width",
+    "source": "ISO 8559-1:2017 5.2.3",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 chest/bustpoint to bust point width"
+    ],
+    "definition": "Distance between the bust points. subject stands erect (tape). The bust point (ISO 8559-1:2017 3.1.11) is the most anterior point of the bust when wearing bra.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "4030"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4030_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4030_top_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "CervicaleToKneeHeight",
+    "type": "Metric",
+    "designation": "Cervicale to knee height",
+    "source": "ASTM 5219-15 Cervicale to knee height",
+    "otherCompatibleStd": [],
+    "definition": "Vertical distance from the cervicale to a point level with a midpoint of the back of the knee (or crease).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0050"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0050_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0050_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "CountryCode",
+    "type": "Metric",
+    "designation": "Country code",
+    "source": "ISO 3166-1",
+    "otherCompatibleStd": [],
+    "definition": "Country where raw data was acquired. The Alpha-2 code in the ISO 3166-1 is selected to describe the countries.",
+    "partnerCodes": [],
+    "media": [],
+    "units": "NoUnits"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "DistanceNeckHip",
+    "type": "Metric",
+    "designation": "Distance neck-hip",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Vertical distance from neck back level to hip level (anthropometer).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0040_mk"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0040_mk_back_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0040_mk_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ElbowGirthAvg",
+    "type": "Metric",
+    "designation": "Elbow girth",
+    "source": "ISO 8559-1:2017 5.3.17",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Elbow girth",
+      "ISO 18825-2:2016 2.2.15"
+    ],
+    "definition": "Mean of the girths of the left and right arms at the elbow point.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8530_LR"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "27"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8530_LR_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8530_LR_front.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ElbowGirthLeft",
+    "type": "Metric",
+    "designation": "Elbow girth left",
+    "source": "ISO 8559-1:2017 5.3.17",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Elbow girth",
+      "ISO 18825-2:2016 2.2.15"
+    ],
+    "definition": "Girth of the left arm at the elbow point. Subject stands erect (tape). The elbow point (ISO 8559-1:2017 3.1.11) is the most prominent point of the olecranon of ulna (prominent bone at the little finger side of the wrist).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8530"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "27"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8530_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8530_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ElbowGirthRight",
+    "type": "Metric",
+    "designation": "Elbow girth right",
+    "source": "ISO 8559-1:2017 5.3.17",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Elbow girth",
+      "ISO 18825-2:2016 2.2.15"
+    ],
+    "definition": "Girth of the right arm at the elbow point. Subject stands erect (tape). The elbow point (ISO 8559-1:2017 3.1.11) is the most prominent point of the olecranon of ulna (prominent bone at the little finger side of the wrist).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8531"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "27"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8531_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8531_right.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "FL",
+    "type": "Metric",
+    "designation": "Foot length",
+    "source": "IBV",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.3.7",
+      "ISO 8559-1:2017 5.5.5"
+    ],
+    "definition": "Distance between the rear- and foremost point of the foot projected into the foot axis, which passes through the projections in the ground plane of the rearmost point of the foot and the midpoint between the 1st and 5th metatarsal heads.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "FL"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/FL01.png",
+      "https://bodypassproject.ibv.org/metricscatalog/FL02.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "Foot3D",
+    "type": "Model",
+    "designation": "Foot 3D",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "A closed 3D mesh of triangles which defines a geometrical representation of a human foot.",
+    "partnerCodes": [],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/foot_top.png",
+      "https://bodypassproject.ibv.org/metricscatalog/foot_outerside.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ForearmGirthAvg",
+    "type": "Metric",
+    "designation": "Forearm girth",
+    "source": "ISO 7250-1:2017 6.3.20",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Forearm girth",
+      "ISAK Section 5.2.16"
+    ],
+    "definition": "Mean of the maximum circumferences of both forearms.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8540_LR"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "9"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "ForearmGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8540_LR_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8540_LR_front.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ForearmGirthLeft",
+    "type": "Metric",
+    "designation": "Forearm girth left",
+    "source": "ISO 7250-1:2017 6.3.20",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Forearm girth",
+      "ISAK Section 5.2.16"
+    ],
+    "definition": "The maximum circumference of the left forearm, one-third of the distance from the olecranon to ulnar styloid (tape).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8540"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "9"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "ForearmGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8540_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8540_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ForearmGirthRight",
+    "type": "Metric",
+    "designation": "Forearm girth right",
+    "source": "ISO 7250-1:2017 6.3.20",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Forearm girth",
+      "ISAK Section 5.2.16"
+    ],
+    "definition": "The maximum circumference of the right forearm, one-third of the distance from the olecranon to ulnar styloid (tape).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8541"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "9"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "ForearmGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8541_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8541_right.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "FrontNeckHeight",
+    "type": "Metric",
+    "designation": "Front neck height",
+    "source": "ISO 8559-1:2017 5.1.4",
+    "otherCompatibleStd": [],
+    "definition": "Vertical distance from front neck point to the ground. Subject standing and head in Frankfurt plane (anthropometer). The front neck point (ISO 8559-1:2017 3.1.8) is the crossing point of the line connecting medial superior boarders of the left and right clavicles and front median line.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0180"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "2"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0180_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0180_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "FrontalArmpitContour",
+    "type": "Metric",
+    "designation": "Frontal armpit contour",
+    "source": "IBV",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Front chest width"
+    ],
+    "definition": "Distance over the body across the front between frontal armpits at frontal armpit level. Subject stands erect (tape)",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "4020"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4020_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4020_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "Gender",
+    "type": "Other",
+    "designation": "Gender",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Gender of the subject (either male or female).",
+    "partnerCodes": [],
+    "media": [],
+    "units": "NoUnits"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "HW",
+    "type": "Metric",
+    "designation": "Heel width",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Width of the heel at the height of the most prominent lateral point of heel section, located at 16% of foot length.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "HW"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/Heel_sec.png",
+      "https://bodypassproject.ibv.org/metricscatalog/HW01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "HeadGirth",
+    "type": "Metric",
+    "designation": "Head girth",
+    "source": "ISO 8559-1:2017 5.3.1",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.3.12",
+      "ASTM D5219-15 Head girth",
+      "ISAK Section 5.2.12"
+    ],
+    "definition": "Maximum, approximately horizontal, girth of head measured above centre point of brow ridge and crossing the rearmost point of the head. Hair shall be included in the measurement (tape). Subject sits or stands erect with head in Frankfurt plane. The centre point of the brow ridge (ISO 8559-1:2017 3.1.2) is the most anterior point of the forehead between the brow ridges in the mid-sagital plane. The Frankfurt plane (ISO 8559-1:2017 3.2.5) is the standard horizontal plane at the level of the left tragion, upper border of the cartilaginous flap in front of the ear hole, and the left orbitale, the lower border of the orbital margin, when the mid-sagital plane of the head is held vertically.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "1530"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "16"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "6"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "HeadGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_1530_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_1530_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "HipBreadth",
+    "type": "Metric",
+    "designation": "Hip breadth",
+    "source": "ISO 8559-1:2017 5.2.1",
+    "otherCompatibleStd": [],
+    "definition": "Maximum horizontal distance across the hips. Subject stands erect, measure is taken without pressing into the flesh of the hips (large sliding calliper). Hip level (ISO 8559-1:2017 3.1.25) is the level of the greatest prokection at the back of the body (buttocks) (large sliding calliper)",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "7120"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "35"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "24"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "HipBreadth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_7120_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_7120_top.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "HipGirth",
+    "type": "Metric",
+    "designation": "Hip girth",
+    "source": "ISO 8559-1:2017 5.3.13",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Hip/seat girth",
+      "ISAK Section 5.2.20",
+      "ISO 18825-2:2016 2.2.22"
+    ],
+    "definition": "Horizontal girth of the body measured at the hip level. Hip level (ISO 8559-1:2017 3.1.25) is the level of the greatest projection at the back of the body (buttocks). Subject stands erect with relaxed abdomen (tape)",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "7520"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "23"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": "4"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "2"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "HipGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_7520_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_7520_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "HipHeight",
+    "type": "Metric",
+    "designation": "Hip height",
+    "source": "ISO 8559-1:2017 5.1.13",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Hip/seat height",
+      "ISO 18825-2:2016 2.2.4"
+    ],
+    "definition": "Vertical distance from the hip level to the ground. Subject stands erect (anthropometer). The hip level (ISO 8559-1:2017 3.1.25) is the level of the greatest projection at the back of the body (buttocks).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0090"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0090_left.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0090_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "IG",
+    "type": "Metric",
+    "designation": "Instep girth",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Perimeter of the Instep section, which is a perpendicular section to the foot axis located at 50% of foot length. Foot axis passes through the projections in the ground plane of the rearmost point of the foot and the midpoint between the 1st and 5th metatarsal heads.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "IG"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/IG01.png",
+      "https://bodypassproject.ibv.org/metricscatalog/IG02.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "IH",
+    "type": "Metric",
+    "designation": "Instep height",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Maximal height of the instep section, which is a perpendicular section to the foot axis located at 50% of foot length. Foot axis passes through the projections in the ground plane of the rearmost point of the foot and the midpoint between the 1st and 5th metatarsal heads.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "IH"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/Ins50_sec.png",
+      "https://bodypassproject.ibv.org/metricscatalog/IH01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "IHG",
+    "type": "Metric",
+    "designation": "Instep to heel girth",
+    "source": "IBV",
+    "otherCompatibleStd": [
+      "ISO 19408-1:2017 6.3.7"
+    ],
+    "definition": "Perimeter of the section that passes through the heel to the Instep point, located at 50% of foot length.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "IHG"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/IHG01.png",
+      "https://bodypassproject.ibv.org/metricscatalog/IHG02.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "IW",
+    "type": "Metric",
+    "designation": "Instep width",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Maximal width of the instep section, which is a perpendicular section to the foot axis located at 50% of foot length. Foot axis passes through the projections in the ground plane of the rearmost point of the foot and the midpoint between the 1st and 5th metatarsal heads.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "IW"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/Ins50_sec.png",
+      "https://bodypassproject.ibv.org/metricscatalog/IW01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "InsideLegHeight",
+    "type": "Metric",
+    "designation": "Inside leg height",
+    "source": "ISO 8559-1:2017 5.1.15",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.1.7",
+      "ASTM D5219-15 Crotch height",
+      "ISO 18825-2:2016 2.2.5"
+    ],
+    "definition": "Vertical distance from the inside leg level to the ground. Subject in standing A position. The inside leg level (ISO 8559-1:2017 3.1.26) is the level at the highest visible point at the junction between the right and left thighs observed from the back of subject (anthropometer)",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0100"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "4"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": "X"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "23"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "InsideLegHeight"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0100_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0100_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "KneeGirthAvg",
+    "type": "Metric",
+    "designation": "Knee girth",
+    "source": "ISO 8559-1:2017 5.3.22",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Knee girth",
+      "ISO 18825-2:2016 2.2.25"
+    ],
+    "definition": "Mean of the horizontal girths of both knees at the level of the centre point of knee-cap.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "9520_LR"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "38"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9520_LR_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9520_LR_front.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "KneeGirthLeft",
+    "type": "Metric",
+    "designation": "Knee girth left",
+    "source": "ISO 8559-1:2017 5.3.22",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Knee girth",
+      "ISO 18825-2:2016 2.2.25"
+    ],
+    "definition": "Horizontal girth of the left knee at the level of the centre point of knee-cap. Subject stands erect (tape).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "9520"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "38"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9520_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9520_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "KneeGirthRight",
+    "type": "Metric",
+    "designation": "Knee girth right",
+    "source": "ISO 8559-1:2017 5.3.22",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Knee girth",
+      "ISO 18825-2:2016 2.2.25"
+    ],
+    "definition": "Horizontal girth of the right knee at the level of the centre point of knee-cap. Subject stands erect (tape).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "9521"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "38"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9521_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9521_right.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "KneeHeight",
+    "type": "Metric",
+    "designation": "Knee height",
+    "source": "ISO 8559-1:2017 5.1.16",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Knee height",
+      "ISO 18825-2:2016 2.2.6"
+    ],
+    "definition": "Mean of the vertical distances from the center point knee-cap of both knees to the ground. Subject standing (anthropometer). The centre point of the knee-cap (ISO 8559-1:2017 3.1.17) is the centre of the patella when the thigh muscles are relaxed.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0110_LR"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "5"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0110_LR_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0110_LR_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "KneeHeightLeft",
+    "type": "Metric",
+    "designation": "Knee height left",
+    "source": "ISO 8559-1:2017 5.1.16",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Knee height",
+      "ISO 18825-2:2016 2.2.6"
+    ],
+    "definition": "Vertical distance from the center point knee-cap of the left knee to the ground. Subject in standing (anthropometer). The centre point of the knee-cap (ISO 8559-1:2017 3.1.17) is the centre of the patella when the thigh muscles are relaxed.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0110"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "5"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0110_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0110_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "KneeHeightRight",
+    "type": "Metric",
+    "designation": "Knee height right",
+    "source": "ISO 8559-1:2017 5.1.16",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Knee height",
+      "ISO 18825-2:2016 2.2.6"
+    ],
+    "definition": "Vertical distance from the center point knee-cap of the right knee to the ground. Subject in standing (anthropometer). The centre point of the knee-cap (ISO 8559-1:2017 3.1.17) is the centre of the patella when the thigh muscles are relaxed.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0111"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "5"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0111_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0111_right_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "LBH",
+    "type": "Metric",
+    "designation": "Lateral Ball Height",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Height of 5th Metatarsal head.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "LBH"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/Ball_sec.png",
+      "https://bodypassproject.ibv.org/metricscatalog/LBH01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "LowerArmLengthLeft",
+    "type": "Metric",
+    "designation": "Lower-arm length left",
+    "source": "ISO 8559-1:2017 5.4.15",
+    "otherCompatibleStd": [],
+    "definition": "Distance from the left elbow point to the left wrist point. Subject stands erect (tape). The elbow point (ISO 8559-1:2017 3.1.11) is the most prominent point of the olecranon of ulna (prominent bone at the little finger side of the wrist). The wrist point (ISO 8559-1:2017 3.1.19) is the most prominent point of the bulge of the head of the ulna.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8050"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "30"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "18"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8050_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8050_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "LowerArmLengthRight",
+    "type": "Metric",
+    "designation": "Lower-arm length right",
+    "source": "ISO 8559-1:2017 5.4.15",
+    "otherCompatibleStd": [],
+    "definition": "Distance from the right elbow point to the right wrist point. Subject stands erect (tape). The elbow point (ISO 8559-1:2017 3.1.11) is the most prominent point of the olecranon of ulna (prominent bone at the little finger side of the wrist). The wrist point (ISO 8559-1:2017 3.1.19) is the most prominent point of the bulge of the head of the ulna.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8051"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "30"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "18"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8051_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8051_right.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "LowerArmlengthAvg",
+    "type": "Metric",
+    "designation": "Lower-arm length",
+    "source": "ISO 8559-1:2017 5.4.15",
+    "otherCompatibleStd": [],
+    "definition": "Distance from the elbow point to the wrist point. Subject stands erect (tape). The elbow point (ISO 8559-1:2017 3.1.11) is the most prominent point of the olecranon of ulna (prominent bone at the little finger side of the wrist). The wrist point (ISO 8559-1:2017 3.1.19) is the most prominent point of the bulge of the head of the ulna.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8050_LR"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "30"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "18"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8050_LR_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8050_LR_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "MBH",
+    "type": "Metric",
+    "designation": "Medial Ball Height",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Height of 1st Metatarsal head.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "MBH"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/Ball_sec.png",
+      "https://bodypassproject.ibv.org/metricscatalog/MBH01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "MaximumHipGirthHeight",
+    "type": "Metric",
+    "designation": "Maximum hip girth height",
+    "source": "ISO 8559-1:2017 5.1.14",
+    "otherCompatibleStd": [],
+    "definition": "Vertical distance from the level of the maximum hip girth to the ground. Subject stands erect (anthropometer). The maximum hip girth (ISO 8559-1:2017 5.3.14) is the maximum horizontal girth of the body below the hip level. The hip level (ISO 8559-1:2017 3.1.25) is the level of the greatest projection at the back of the body (buttocks).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0095"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0095_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0095_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "MinimumLegGirthAvg",
+    "type": "Metric",
+    "designation": "Minimum leg girth",
+    "source": "ISO 8559-1:2017 5.3.25",
+    "otherCompatibleStd": [
+      "ISAK Section 5.1.24",
+      "ISO 18825-2:2016 2.2.27"
+    ],
+    "definition": "Mean of both minimum horizontal girths of lower legs just above the ankle bones.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "9542_LR"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "41"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9542_LR_back_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9542_LR_front_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "MinimumLegGirthLeft",
+    "type": "Metric",
+    "designation": "Minimum leg girth left",
+    "source": "ISO 8559-1:2017 5.3.25",
+    "otherCompatibleStd": [
+      "ISAK Section 5.1.24",
+      "ISO 18825-2:2016 2.2.27"
+    ],
+    "definition": "Minimum horizontal girth of the lower left leg just above the ankle bone. Subject stands erect (tape).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "9542_I"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "41"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9542_I_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9542_I_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "MinimumLegGirthRight",
+    "type": "Metric",
+    "designation": "Minimum leg girth right",
+    "source": "ISO 8559-1:2017 5.3.25",
+    "otherCompatibleStd": [
+      "ISAK Section 5.1.24",
+      "ISO 18825-2:2016 2.2.27"
+    ],
+    "definition": "Minimum horizontal girth of the lower right leg just above the ankle bone. Subject stands erect (tape).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "9543_I"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "41"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9543_I_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9543_I_right_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "NH",
+    "type": "Metric",
+    "designation": "Navicular height",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Height of the Navicular point.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "NH"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/NH01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "NP",
+    "type": "Metric",
+    "designation": "Navicular position",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Distance from the rearmost point of the foot to the Navicular point projected into the foot axis, which passes through the projections in the ground plane of the rearmost point of the foot and the midpoint between the 1st and 5th metatarsal heads.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "NP"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/NP01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "NeckGirth",
+    "type": "Metric",
+    "designation": "Neck girth",
+    "source": "ISO 8559-1:2017 5.3.2",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.4.9",
+      "ASTM D5219-15 Mid-neck girth",
+      "ISAK Section 5.2.13",
+      "ISO 18825-2:2106 2.2.11"
+    ],
+    "definition": "Girth of the neck at point just below the bulgue at the thyroid cartilage and measured perpendicular to the longitudinal axis of the neck (tape). Subject sits or stands with head in Frankfurt plane. The point employed (also named Adam's apple point), is the most anterior point of the thyrois cartilage (ISO 8559-1:2017 3.1.9). The Frankfurt plane (ISO 8559-1:2017 3.2.5) is the standard horizontal plane at the level of the left tragion, upper border of the cartilaginous flap in front of the ear hole, and the left orbitale, the lower border of the orbital margin, when the mid-sagital plane of the head is held vertically.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "1510"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "17"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "7"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "NeckGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_1510_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_1510_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "NeckShoulderPointToWaistAvg",
+    "type": "Metric",
+    "designation": "Neck shoulder point to waist",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Mean of the distances from the left and right side neck points, over the back, to the waist level. Subject stands erect (tape)",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "5050_LR"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5050_LR_back_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5050_LR_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "NeckShoulderPointToWaistLeft",
+    "type": "Metric",
+    "designation": "Neck shoulder point to waist left",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Distance from the left side neck point, over the back, to the waist level. Subject stands erect (tape)",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "5050_mk"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5050_mk_back_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5050_mk_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "NeckShoulderPointToWaistRight",
+    "type": "Metric",
+    "designation": "Neck shoulder point to waist right",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Distance from the right side neck point, over the back, to the waist level. Subject stands erect (tape)",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "5051_mk"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5051_mk_back_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5051_mk_right_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "OuterArmLength",
+    "type": "Metric",
+    "designation": "Outer arm length",
+    "source": "ISO 8559-1:2017 5.7.8",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Arm length",
+      "ISO 18825-2:2016 2.2.10"
+    ],
+    "definition": "Distance from shoulder point to wrist point (tape). Shoulder point is (ISO 8559-1:2017 3.1.1) the most lateral point of the lateral edge of the spine (acromial process) of the scapula, projected vertically to the surface of the skin. The wrist point (ISO 8559-1:2017 3.1.19) is the most prominent point of the bulge of the head of the ulna (prominent bone at the little finger side of the wrist).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8030_LR"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "32"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": "6"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "UpperLimbLength"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8030_LR_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8030_LR_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "OuterArmLengthLeft",
+    "type": "Metric",
+    "designation": "Outer arm length left",
+    "source": "ISO 8559-1:2017 5.7.8",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Arm length",
+      "ISO 18825-2:2016 2.2.10"
+    ],
+    "definition": "Distance from left shoulder point to left wrist point (tape). Shoulder point is (ISO 8559-1:2017 3.1.1) the most lateral point of the lateral edge of the spine (acromial process) of the scapula, projected vertically to the surface of the skin. The wrist point (ISO 8559-1:2017 3.1.19) is the most prominent point of the bulge of the head of the ulna (prominent bone at the little finger side of the wrist).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8030_mk"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "32"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": "6"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "UpperLimbLength"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8030_mk_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8030_mk_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "OuterArmLengthRight",
+    "type": "Metric",
+    "designation": "Outer arm length right",
+    "source": "ISO 8559-1:2017 5.7.8",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Arm length",
+      "ISO 18825-2:2016 2.2.10"
+    ],
+    "definition": "Distance from right shoulder point to right wrist point (tape). Shoulder point is (ISO 8559-1:2017 3.1.1) the most lateral point of the lateral edge of the spine (acromial process) of the scapula, projected vertically to the surface of the skin. The wrist point (ISO 8559-1:2017 3.1.19) is the most prominent point of the bulge of the head of the ulna (prominent bone at the little finger side of the wrist).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8031_mk"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "32"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": "6"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "UpperLimbLength"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8031_mk_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8031_mk_right.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "P1M",
+    "type": "Metric",
+    "designation": "Position of 1st Metatarsal head",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Distance from the rearmost point of the foot to the 1st Metatarsal head projected into foot axis, which passes through the projections in the ground plane of the rearmost point of the foot and the midpoint between the 1st and 5th metatarsal heads.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "P1M"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/P1M01.png",
+      "https://bodypassproject.ibv.org/metricscatalog/P1M02.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "P5M",
+    "type": "Metric",
+    "designation": "Position of 5th Metatarsal head",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Distance from the rearmost point of the foot to the 5th Metatarsal head projected into the foot axis, which passes through the projections in the ground plane of the rearmost point of the foot and the midpoint between the 1st and 5th metatarsal heads.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "P5M"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/P5M01.png",
+      "https://bodypassproject.ibv.org/metricscatalog/P5M02.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ScyeDepth",
+    "type": "Metric",
+    "designation": "Scye depth",
+    "source": "ISO 8559-1:2017 5.4.6",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Scye depth"
+    ],
+    "definition": "Distance, measured vertically on the body from back neck point to the upper edge of a tape measure passing horizontally under the arms axilla. Subject stands erect and head in Frankfurt plane (tape). The back neck point (ISO 8559-1:2017 3.1.6) is the tip of the prominent bone at the base of the back of the neck in the mid-sagital plane, and projected posteriorly to the surface of the skin.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "5030_mk"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5030_mk_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5030_mk_back_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ShoulderBiacromicalBreadth",
+    "type": "Metric",
+    "designation": "Shoulder (biacromical) breadth",
+    "source": "ISO 7250-1:2017 6.2.7",
+    "otherCompatibleStd": [
+      "ISAK Section 7.2.34",
+      "ISO 18825-2:2016 2.2.8"
+    ],
+    "definition": "Distance along a straight line from acromion to acromion. Subject stands erect with shoulders relaxed (large sliding caliper or large spreading caliper). The acromion point (ISO 7250-1:2017 5.2) is the most lateral point of the lateral edge of the spine (acromial process) of the scapula, projected vertically to the surface of the skin.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "3100_I"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_3100_I_back_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_3100_I_top_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ShoulderLengthLeft",
+    "type": "Metric",
+    "designation": "Shoulder length left",
+    "source": "ISO 8559-1:2017 5.4.1",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Shoulder length"
+    ],
+    "definition": "Distance from the side neck point to the left shoulder point. Subject stands erect with shoulders relaxed (tape). The side neck point (ISO 8559-1:2017 3.1.7) is the crossing point of the neck base line and the anterior border of the trapezius muscle. The neck base line (ISO 8559-1:2017 3.2.1) is the line at the neck base defined using a chainette that pases back neck point and the front neck point. The shoulder point (ISO 8559-1:2017 3.1.2) is the most lateral point of the lateral edge of the spine (acromial process) of the scapula, projected vertically to the surface of the skin.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "3030_mk"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "19"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_3030_mk_back_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_3030_mk_top_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ShoulderLengthRight",
+    "type": "Metric",
+    "designation": "Shoulder length right",
+    "source": "ISO 8559-1:2017 5.4.1",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Shoulder length"
+    ],
+    "definition": "Distance from the side neck point to the right shoulder point. Subject stands erect with shoulders relaxed (tape). The side neck point (ISO 8559-1:2017 3.1.7) is the crossing point of the neck base line and the anterior border of the trapezius muscle. The neck base line (ISO 8559-1:2017 3.2.1) is the line at the neck base defined using a chainette that pases back neck point and the front neck point. The shoulder point (ISO 8559-1:2017 3.1.2) is the most lateral point of the lateral edge of the spine (acromial process) of the scapula, projected vertically to the surface of the skin.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "3031_mk"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "19"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_3031_mk_back_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_3031_mk_top_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "SideNeckPointToWaistLevelAvg",
+    "type": "Metric",
+    "designation": "Side neck point to waist level",
+    "source": "ISO 8559-1:2017 5.4.11",
+    "otherCompatibleStd": [],
+    "definition": "Distance from side neck point, over the bust point, then vertically straight to the waist level. subject stands erect, shoulders relaxed and head in Frankfurt plane (tape). The bust point (ISO 8559-1:2017 3.1.11) is the most anterior point of the bust when wearing bra. Waist level (ISO 8559-1:2017 3.1.22) is the midway level between the lowest rib point and the highest point of the hip bon    e at the side of the body. Lowest rib point (ISO 8559-1:2017 3.1.15) is the inferior point of the bottom of the rib cage (tenth rib) projected horizontally, 45 degrees from the midsagital plane, to the surface of the skin. The highest point of the hip bone (ISO 8559-1:2017 3.1.16) is the highest point at the side of the upper border of the iliac crest.The Frankfurt plane (ISO 8559-1:2017 3.2.5) is the standard horizontal plane at the level of the left tragion, upper border of the cartilaginous flap in front of the ear hole, and the left orbitale, the lower border of the orbital margin, when the mid-sagital plane of the head is held vertically.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "4040_LR"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4040_LR_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4040_LR_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "SideNeckPointToWaistLevelLeft",
+    "type": "Metric",
+    "designation": "Side neck point to waist level left",
+    "source": "ISO 8559-1:2017 5.4.11",
+    "otherCompatibleStd": [],
+    "definition": "Distance from left side neck point, over the left bust point, then vertically straight to the waist level. subject stands erect, shoulders relaxed and head in Frankfurt plane (tape). The bust point (ISO 8559-1:2017 3.1.11) is the most anterior point of the bust when wearing bra. Waist level (ISO 8559-1:2017 3.1.22) is the midway level between the lowest rib point and the highest point of the hip bon    e at the side of the body. Lowest rib point (ISO 8559-1:2017 3.1.15) is the inferior point of the bottom of the rib cage (tenth rib) projected horizontally, 45 degrees from the midsagital plane, to the surface of the skin. The highest point of the hip bone (ISO 8559-1:2017 3.1.16) is the highest point at the side of the upper border of the iliac crest.The Frankfurt plane (ISO 8559-1:2017 3.2.5) is the standard horizontal plane at the level of the left tragion, upper border of the cartilaginous flap in front of the ear hole, and the left orbitale, the lower border of the orbital margin, when the mid-sagital plane of the head is held vertically.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "4040_mk"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4040_mk_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4040_mk_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "SideNeckPointToWaistLevelRight",
+    "type": "Metric",
+    "designation": "Side neck point to waist level right",
+    "source": "ISO 8559-1:2017 5.4.11",
+    "otherCompatibleStd": [],
+    "definition": "Distance from right side neck point, over the right bust point, then vertically straight to the waist level. subject stands erect, shoulders relaxed and head in Frankfurt plane (tape). The bust point (ISO 8559-1:2017 3.1.11) is the most anterior point of the bust when wearing bra. Waist level (ISO 8559-1:2017 3.1.22) is the midway level between the lowest rib point and the highest point of the hip bone at the side of the body. Lowest rib point (ISO 8559-1:2017 3.1.15) is the inferior point of the bottom of the rib cage (tenth rib) projected horizontally, 45 degrees from the midsagital plane, to the surface of the skin. The highest point of the hip bone (ISO 8559-1:2017 3.1.16) is the highest point at the side of the upper border of the iliac crest.The Frankfurt plane (ISO 8559-1:2017 3.2.5) is the standard horizontal plane at the level of the left tragion, upper border of the cartilaginous flap in front of the ear hole, and the left orbitale, the lower border of the orbital margin, when the mid-sagital plane of the head is held vertically.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "4041_mk"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4041_mk_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4041_mk_right_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "Stature",
+    "type": "Metric",
+    "designation": "Stature",
+    "source": "ISO 8559-1:2017 5.1.1",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.1.2",
+      "ASTM D5219-15 Height",
+      "ISO 18825-2:2016 2.2.1",
+      "ISAK Section 3.2.2"
+    ],
+    "definition": "Vertical distance from the highest point of the  head in the median line to the ground (stadiometer)",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0010"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "1"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "4"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0010_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "TA",
+    "type": "Metric",
+    "designation": "Toes angle",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "The angle formed by the projection on the ground plane of the line between T1-T5 and the foot axis, which passes through the projections in the ground plane of the rearmost point of the foot and the midpoint between the 1st and 5th metatarsal heads.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "TA"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/TA01.png"
+    ],
+    "units": "degrees"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "TG",
+    "type": "Metric",
+    "designation": "Toes girth",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Perimeter of the convex hull of the toes section, which is the section passing through 1st and 5th toe joints.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "TG"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/TG01.png",
+      "https://bodypassproject.ibv.org/metricscatalog/TG02.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "TH",
+    "type": "Metric",
+    "designation": "Toes height",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Maximal height of the toes section, which is the section passing through 1st and 5th toe joints.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "TH"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/Toes_sec.png",
+      "https://bodypassproject.ibv.org/metricscatalog/TH01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "TP",
+    "type": "Metric",
+    "designation": "Toes position",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Distance from the rearmost point of the foot to the intersection of the toes section and the foot axis, which passes through the projections in the ground plane of the rearmost point of the foot and the midpoint between the 1st and 5th metatarsal heads.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "TP"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/TP01.png",
+      "https://bodypassproject.ibv.org/metricscatalog/TP02.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "TW",
+    "type": "Metric",
+    "designation": "Toes width",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Maximal distance between the extreme points of the toes section (section passing through 1st and 5th toe joints) projected into the Ground plane.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "TW"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/Toes_sec.png",
+      "https://bodypassproject.ibv.org/metricscatalog/TW01.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ThighGirthAvg",
+    "type": "Metric",
+    "designation": "Thigh girth",
+    "source": "ISO 8559-1:2017 5.3.20",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.4.13",
+      "ASTM D5219-15 Thigh girth",
+      "ISAK Section 5.2.21",
+      "ISO 18825-2:2016 2.2.13"
+    ],
+    "definition": "Mean of the maximum horizontal girths of the thighs below the gluteal fold.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "9515_LR"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "36"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9515_LR_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9515_LR_front.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ThighGirthLeft",
+    "type": "Metric",
+    "designation": "Thigh girth left",
+    "source": "ISO 8559-1:2017 5.3.20",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.4.13",
+      "ASTM D5219-15 Thigh girth",
+      "ISAK Section 5.2.21",
+      "ISO 18825-2:2016 2.2.13"
+    ],
+    "definition": "Maximum horizontal girth of the left thigh below the gluteal fold. Subject stands erect (tape).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "9515"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "36"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9515_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9515_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "ThighGirthRight",
+    "type": "Metric",
+    "designation": "Thigh girth right",
+    "source": "ISO 8559-1:2017 5.3.20",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.4.13",
+      "ASTM D5219-15 Thigh girth",
+      "ISAK Section 5.2.21",
+      "ISO 18825-2:2016 2.2.13"
+    ],
+    "definition": "Maximum horizontal girth of the right thigh below the gluteal fold. Subject stands erect (tape).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "9516"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "36"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9516_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_9516_right.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "TopHipGirth",
+    "type": "Metric",
+    "designation": "Top hip girth",
+    "source": "ISO 8559-1:2017 5.3.12",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 High-hip girth"
+    ],
+    "definition": "Horizontal girth of the body measured at the top hip level. Subject stands erect with abdomen relaxed (tape). Top hip level (ISO 8559-1:2017 3.1.24) is the midway level between the waist level and hip level. The hip level (ISO 8559-1:2017 3.1.25) is the level of the greatest projection at the back of the body (buttocks). Waist level (ISO 8559-1:2017 3.1.22) is the midway level between the lowest rib point and the highest point of the hip bone at the side of the body. Lowest rib point (ISO 8559-1:2017 3.1.15) is the inferior point of the bottom of the rib cage (tenth rib) projected horizontally, 45 degrees from the midsagital plane, to the surface of the skin. The highest point of the hip bone (ISO 8559-1:2017 3.1.16) is the highest point at the side of the upper border of the iliac crest.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "7527_I"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": "3"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_7527_I_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_7527_I_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "TorsoHeight",
+    "type": "Metric",
+    "designation": "Torso height",
+    "source": "ISO 8559-1:2017 5.7.3",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Cervicale to crotch height"
+    ],
+    "definition": "Vertical distance from back neck point to the inside level. Subject standing and head in Frankfurt plane (anthropometer). The back neck point (ISO 8559-1:2017 3.1.6) is the tip of the prominent bone at the base of the back neck in the mid-sagital plane, and projected posteriorly to the surface of the skin. The inside leg level (ISO 8559-1:2017 3.1.26) is the level of highest visible point at the junction between the right and left thighs observed from the back of the subject. The Frankfurt plane (ISO 8559-1:2017 3.2.5) is the standard horizontal plane at the level of the left tragion, upper border of the cartilaginous flap in front of the ear hole, and the left orbitale, the lower border of the orbital margin, when the mid-sagital plane of the head is held vertically.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0041_I"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "9"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "5bis"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "TrunkLength"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0041_I_back_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0041_I_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "UnderBustGirth",
+    "type": "Metric",
+    "designation": "Under bust girth",
+    "source": "ISO 8559-1:2017 5.3.8",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Under-chest/bust girth",
+      "ISO 18825-2:2016 2.2.19"
+    ],
+    "definition": "Horizontal girth of the body at the under bust level. Subject stands erect (tape). The under bust level (ISO 8559-1:2017 3.1.20) is the level directly below breast when wearing bra.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "4520_mk"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4520_mk_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_4520_mk_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "UpperArmGirthAvg",
+    "type": "Metric",
+    "designation": "Upper-arm girth",
+    "source": "ISO 8559-1:2017 5.3.16",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Upper-arm girth",
+      "ISAK Section 5.2.14"
+    ],
+    "definition": "Mean of the left and right upper-arm girths.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8520_LR"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "26"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "8"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "UpperArmGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8520_LR_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8520_LR_front.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "UpperArmGirthLeft",
+    "type": "Metric",
+    "designation": "Upper-arm girth left",
+    "source": "ISO 8559-1:2017 5.3.16",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Upper-arm girth",
+      "ISAK Section 5.2.14"
+    ],
+    "definition": "Girth of the left upper arm measured midway between the shoulder point and elbow point (tape). Shoulder point is (ISO 8559-1:2017 3.1.1) the most lateral point of the lateral edge of the spine (acromial process) of the scapula, projected vertically to the surface of the skin. The elbow point (ISO 8559-1:2017 3.1.11) is the most prominent point of the olecranon of ulna (prominent bone at the little finger side of the wrist).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8520"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "26"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "8"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "UpperArmGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8520_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8520_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "UpperArmGirthRight",
+    "type": "Metric",
+    "designation": "Upper-arm girth right",
+    "source": "ISO 8559-1:2017 5.3.16",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Upper-arm girth",
+      "ISAK Section 5.2.14"
+    ],
+    "definition": "Girth of the right upper arm measured midway between the shoulder point and elbow point (tape). Shoulder point is (ISO 8559-1:2017 3.1.1) the most lateral point of the lateral edge of the spine (acromial process) of the scapula, projected vertically to the surface of the skin. The elbow point (ISO 8559-1:2017 3.1.11) is the most prominent point of the olecranon of ulna (prominent bone at the little finger side of the wrist).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8521"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "26"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "8"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "UpperArmGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8521_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8521_right.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "UpperArmLengthAvg",
+    "type": "Metric",
+    "designation": "Upper-arm length",
+    "source": "ISO 8559-1:2017 5.4.14",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Shoulder to elbow length"
+    ],
+    "definition": "Distance from the shoulder point to the elbow point. Subject stands erect (tape). Shoulder point is (ISO 8559-1:2017 3.1.1) the most lateral point of the lateral edge of the spine (acromial process) of the scapula, projected vertically to the surface of the skin. The elbow point (ISO 8559-1:2017 3.1.11) is the most prominent point of the olecranon of ulna (prominent bone at the little finger side of the wrist).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8040_LR"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "29"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "17"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "UpperArmLength"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8040_LR_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8040_LR_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "UpperArmLengthLeft",
+    "type": "Metric",
+    "designation": "Upper-arm length left",
+    "source": "ISO 8559-1:2017 5.4.14",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Shoulder to elbow length"
+    ],
+    "definition": "Distance from the left shoulder point to the left elbow point. Subject stands erect (tape). Shoulder point is (ISO 8559-1:2017 3.1.1) the most lateral point of the lateral edge of the spine (acromial process) of the scapula, projected vertically to the surface of the skin. The elbow point (ISO 8559-1:2017 3.1.11) is the most prominent point of the olecranon of ulna (prominent bone at the little finger side of the wrist).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8040_mk"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "29"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "17"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "UpperArmLength"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8040_mk_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8040_mk_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "UpperArmLengthRight",
+    "type": "Metric",
+    "designation": "Upper-arm length right",
+    "source": "ISO 8559-1:2017 5.4.14",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Shoulder to elbow length"
+    ],
+    "definition": "Distance from the right shoulder point to the right elbow point. Subject stands erect (tape). Shoulder point is (ISO 8559-1:2017 3.1.1) the most lateral point of the lateral edge of the spine (acromial process) of the scapula, projected vertically to the surface of the skin. The elbow point (ISO 8559-1:2017 3.1.11) is the most prominent point of the olecranon of ulna (prominent bone at the little finger side of the wrist).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8041_mk"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "29"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "17"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "UpperArmLength"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8041_mk_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8041_mk_right.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "VolumeBody",
+    "type": "Metric",
+    "designation": "Full body volume",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Body volume contained within the watertight mesh.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "volume"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "VolumeBody"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_volume_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_volume_back.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "WaistBreadth",
+    "type": "Metric",
+    "designation": "Waist breadth",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Width of the waist girth. Subject stands erect (sliding caliper).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "6110"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_6110_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_6110_top.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "WaistFrontalContour",
+    "type": "Metric",
+    "designation": "Waist frontal contour",
+    "source": "IBV",
+    "otherCompatibleStd": [],
+    "definition": "Frontal part of waist girth measurement. Subject stands erect (tape)",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "2030_mk"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_2030_mk_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_2030_mk_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "WaistGirth",
+    "type": "Metric",
+    "designation": "Waist girth",
+    "source": "ISO 8559-1:2017 5.3.10",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.4.11",
+      "ASTM D5219-15 Waist girth",
+      "ISO 18825-2:2016 2.2.20",
+      "ISAK Section 5.2.19"
+    ],
+    "definition": "Horizontal girth of the body measured at the waist level. Subject stands erect with abdomen relaxed (tape). Waist level (ISO 8559-1:2017 3.1.22) is the midway level between the lowest rib point and the highest point of the hip bone at the side of the body. Lowest rib point (ISO 8559-1:2017 3.1.15) is the inferior point of the bottom of the rib cage (tenth rib) projected horizontally, 45 degrees from the midsagital plane, to the surface of the skin. The highest point of the hip bone (ISO 8559-1:2017 3.1.16) is the highest point at the side of the upper border of the iliac crest.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "6510"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "34"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": "2"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "1"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_6510_front_z.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_6510_left_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "WaistHeight",
+    "type": "Metric",
+    "designation": "Waist height",
+    "source": "ISO 8559-1:2017 5.1.10",
+    "otherCompatibleStd": [
+      "ISO 18825-2_2016 2.2.3",
+      "ASTM D5219-15 Waist height"
+    ],
+    "definition": "Vertical distance from the waist level to the ground (anthropometer). Subject standing and abdomen relaxed. Waist level (ISO 8559-1:2017 3.1.22) is the midway level between the lowest rib point and the highest point of the hip bone at the side of the body. Lowest rib point (ISO 8559-1:2017 3.1.15) is the inferior point of the bottom of the rib cage (tenth rib) projected horizontally, 45 degrees from the midsagital plane, to the surface of the skin. The highest point of the hip bone (ISO 8559-1:2017 3.1.16) is the highest point at the side of the upper border of the iliac crest.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0080_mk"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "3"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0080_mk_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0080_mk_front_z.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "WaistToButtockLength",
+    "type": "Metric",
+    "designation": "Waist to buttock length",
+    "source": "IBV",
+    "otherCompatibleStd": [
+      "ASTM D5219-15 Waist to hip/seat height"
+    ],
+    "definition": "Vertical distance from waist level to buttock level. Subject stands erect (anthropometer)",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "5080_mk"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5080_mk_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_5080_mk_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "WaistToKneeHeight",
+    "type": "Metric",
+    "designation": "Waist to knee height",
+    "source": "ASTM D5219-15 Waist to knee height",
+    "otherCompatibleStd": [],
+    "definition": "Vertical distance from the waist level to a point level with the midpoint of the back of the knee (or crease), taken plumb",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "0060"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0060_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_0060_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "Weight",
+    "type": "Metric",
+    "designation": "Weight",
+    "source": "ISO 8559-1:2017 5.6.1",
+    "otherCompatibleStd": [],
+    "definition": "Total weight of the body.",
+    "partnerCodes": [],
+    "media": [],
+    "units": "k"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "WristGirthAvg",
+    "type": "Metric",
+    "designation": "Wrist girth",
+    "source": "ISO 8559-1:2017 5.3.19",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.4.12",
+      "ASTM D5219-15 Wrist girth",
+      "ISAK Section 5.2.17",
+      "ISO 18825-2:2016 2.2.16"
+    ],
+    "definition": "Mean of the girths of both wrists.",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8550_LR"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "28"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "10"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "WristGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8550_LR_back.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8550_LR_front.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "WristGirthLeft",
+    "type": "Metric",
+    "designation": "Wrist girth left",
+    "source": "ISO 8559-1:2017 5.3.19",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.4.12",
+      "ASTM D5219-15 Wrist girth",
+      "ISAK Section 5.2.17",
+      "ISO 18825-2:2016 2.2.16"
+    ],
+    "definition": "Girth of the left wrist at the level of the wrist point (tape). The wrist point (ISO 8559-1:2017 3.1.19) is the most prominent point of the bulge of the head of the ulna (prominent bone at the little finger side of the wrist).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8550"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "28"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "10"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "WristGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8550_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8550_left.png"
+    ],
+    "units": "mm"
+  },
+  {
+    "$class": "org.bodypass.model.DataResourceCatalogue",
+    "resourceID": "WristGirthRight",
+    "type": "Metric",
+    "designation": "Wrist girth right",
+    "source": "ISO 8559-1:2017 5.3.19",
+    "otherCompatibleStd": [
+      "ISO 7250-1:2017 6.4.12",
+      "ASTM D5219-15 Wrist girth",
+      "ISAK Section 5.2.17",
+      "ISO 18825-2:2016 2.2.16"
+    ],
+    "definition": "Girth of the right wrist at the level of the wrist point (tape). The wrist point (ISO 8559-1:2017 3.1.19) is the most prominent point of the bulge of the head of the ulna (prominent bone at the little finger side of the wrist).",
+    "partnerCodes": [
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "IBV",
+        "code": "8551"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PRT",
+        "code": "28"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "ELSE",
+        "code": ""
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "INCLIVA",
+        "code": "10"
+      },
+      {
+        "$class": "org.bodypass.model.PartnerCode",
+        "partner": "PHILIPS",
+        "code": "WristGirth"
+      }
+    ],
+    "media": [
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8551_front.png",
+      "https://bodypassproject.ibv.org/metricscatalog/hourglass_720_1600_PLS_8551_right.png"
+    ],
+    "units": "mm"
+  }
+]
