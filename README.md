@@ -25,7 +25,7 @@ This repository contains simple GUI examples for querying through the private bl
 * **GUI_QA**: GUI for Query type A. This transaction queries a 3D model that is accessible by the participant. The GUI makes the query to HYPERLDEGER and access the services offered by the [IBV](https://www.ibv.org/) and you receive a clean waterthigh 3D avatar that adjusts to the individual and the measurements requested. You can also request measures included in the measurements catalague. The following field is mandatory when submitting a transaction using the POST method:
   *	data_code : The code of the 3D reconstruction that you want to obtain.
 
-* **BODYPASScatalog.json**: Metrics to included in the dictionary and stored by the system to well-define a metric. For any metric, the system stores the following:
+* **BODYPASScatalog.json**: Metrics included in the dictionary and stored by the system to well-define a metric. For any metric, the system stores the following:
 
   * ID: code that identifies the metric.
   * Designation: name of the metric.
