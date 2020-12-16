@@ -132,11 +132,12 @@ class First(QtWidgets.QMainWindow, Ui_MainWindow):
             jsontext = jsontext+"      {\n"
             jsontext = jsontext+"         \"attribute\": \""+M['name']+"\",\n"
             jsontext = jsontext+"         \"value\": "+str(M['value'])
+            jsontext = jsontext+"\n"
             if( i<len(metrics_provided)-1 ):
-                jsontext = jsontext+",\n"
+                jsontext = jsontext+"      },\n"
             else:
-                jsontext = jsontext+"\n"
-            jsontext = jsontext+"      }\n"
+                jsontext = jsontext+"      }\n"
+            
         jsontext = jsontext+"    ]\n"
         jsontext = jsontext+"}\n"
         return jsontext
